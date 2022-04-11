@@ -26,7 +26,7 @@ Users will be able to:
 
 ### Screenshot
 
-![Interactive rating component full screen view](screenshot.png)
+![Interactive rating component full screen view](Screenshot.png)
 
 ### Links
 
