@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Interactive rating component that can be used on all web pages"
+    />
+    
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="apple-icon" href="images/apple.png" />
+
+    <title>Interactive rating component challenge on Frontend Mentor</title>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen font-Overpass text-base bg-Neutral-Very_Dark_Blue text-white relative "
+  >
+    <div
+      class=" rating_element  flex flex-col gap-8 sm:max-w-sm max-w-xs bg-Neutral-Dark_Blue rounded-xl p-8  "
+    >
+      <div class=>
+        <div  class=" text-center w-12 h-12 flex justify-center items-center rounded-full  bg-white bg-opacity-10"  >
+        <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+            fill="#FC7614"
+          />
+        </svg></div>
+      </div>
+      <div>
+        <p class="text-3xl font-bold">How did we do?</p>
+      </div>
+      <div>
+        <p class="text-base text-Neutral-Medium_Grey">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="flex justify-between items-center">
+        <div class="circle  ">
+          1
+        </div>
+        <div class="circle">
+           2
+        </div>
+        <div class="circle">
+           3
+        </div>
+        <div class="circle">
+          4
+        </div>
+        <div class="circle">
+           5
+        </div>
+      </div>
+      <button
+        class=" submit_btn bg-primary rounded-3xl py-4 uppercase hover:bg-white hover:text-primary flex justify-center items-center"
+      >
+        Submit
+      </button>
+    </div>
+    <!-- second element  -->
+    <div
+    class=" final_element flex flex-col justify-center items-center gap-8  sm:max-w-sm max-w-xs bg-Neutral-Dark_Blue rounded-xl p-8 hidden"
+  >
+    <div class=>
+      
+     <img src="images/illustration-thank-you.svg" alt="illustration for thank u message">
+ 
+    </div>
+    <div class=" insert_element  flex items-center  bg-white bg-opacity-10 rounded-3xl   "  >
+      <p class="text-base text-primary   text-opacity-60 px-4 py-2  ">You selected <span class="rating" >4</span> out of 5</p>
+    </div>
+    <div>
+      <p class="text-3xl font-bold">Thank You!</p>
+    </div>
+    <div>
+      <p class="text-base text-Neutral-Medium_Grey text-center">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+      </p>
+    </div>
+   
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

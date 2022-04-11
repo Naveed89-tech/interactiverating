@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+.circle {
+  @apply font-Overpass  text-xs text-center leading-none  text-Neutral-Light_Grey hover:text-white font-medium bg-white bg-opacity-10 w-10 h-10 flex justify-center rounded-full items-center cursor-pointer focus:outline-hidden  hover:bg-primary active:bg-Neutral-Medium_Grey;
+}
+.circle_text {
+  @apply outline-hidden;
+}
+@tailwind utilities;
