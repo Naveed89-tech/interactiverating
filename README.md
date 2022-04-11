@@ -30,8 +30,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Naveed89-tech/interactiverating)
-- Live Site URL: [Add live site URL here](https://interactiveratingcomponentnew.netlify.app/)
+- Solution URL: [https://github.com/Naveed89-tech/interactiverating](https://github.com/Naveed89-tech/interactiverating)
+- Live Site URL: [https://interactiveratingcomponentnew.netlify.app/](https://interactiveratingcomponentnew.netlify.app/)
 
 ## My process
 
